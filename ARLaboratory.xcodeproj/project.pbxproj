@@ -15,6 +15,8 @@
 		9F4A0F702452B89B00E69C14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F4A0F6E2452B89B00E69C14 /* LaunchScreen.storyboard */; };
 		9F4A0F7B2452B89C00E69C14 /* ARLaboratoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4A0F7A2452B89C00E69C14 /* ARLaboratoryTests.swift */; };
 		9F4A0F862452B89C00E69C14 /* ARLaboratoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4A0F852452B89C00E69C14 /* ARLaboratoryUITests.swift */; };
+		9F4A0F942452BE1800E69C14 /* TopMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4A0F932452BE1800E69C14 /* TopMenu.swift */; };
+		9F4A0F962452BE6900E69C14 /* TestARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4A0F952452BE6900E69C14 /* TestARView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		9F4A0F812452B89C00E69C14 /* ARLaboratoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARLaboratoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F4A0F852452B89C00E69C14 /* ARLaboratoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARLaboratoryUITests.swift; sourceTree = "<group>"; };
 		9F4A0F872452B89C00E69C14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F4A0F932452BE1800E69C14 /* TopMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMenu.swift; sourceTree = "<group>"; };
+		9F4A0F952452BE6900E69C14 /* TestARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestARView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				9F4A0F6E2452B89B00E69C14 /* LaunchScreen.storyboard */,
 				9F4A0F712452B89B00E69C14 /* Info.plist */,
 				9F4A0F6B2452B89B00E69C14 /* Preview Content */,
+				9F4A0F932452BE1800E69C14 /* TopMenu.swift */,
+				9F4A0F952452BE6900E69C14 /* TestARView.swift */,
 			);
 			path = ARLaboratory;
 			sourceTree = "<group>";
@@ -267,6 +273,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F4A0F962452BE6900E69C14 /* TestARView.swift in Sources */,
+				9F4A0F942452BE1800E69C14 /* TopMenu.swift in Sources */,
 				9F4A0F662452B89500E69C14 /* ContentView.swift in Sources */,
 				9F4A0F642452B89500E69C14 /* AppDelegate.swift in Sources */,
 				9F4A0F682452B89500E69C14 /* Experience.rcproject in Sources */,
@@ -439,6 +447,7 @@
 				DEVELOPMENT_TEAM = B9L7L75QK7;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ARLaboratory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +468,7 @@
 				DEVELOPMENT_TEAM = B9L7L75QK7;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ARLaboratory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
