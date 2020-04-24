@@ -17,6 +17,8 @@
 		9F4A0F862452B89C00E69C14 /* ARLaboratoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4A0F852452B89C00E69C14 /* ARLaboratoryUITests.swift */; };
 		9F4A0F942452BE1800E69C14 /* TopMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4A0F932452BE1800E69C14 /* TopMenu.swift */; };
 		9F4A0F962452BE6900E69C14 /* TestARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4A0F952452BE6900E69C14 /* TestARView.swift */; };
+		9F4A0F992452D5AC00E69C14 /* ARDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4A0F982452D5AC00E69C14 /* ARDataModel.swift */; };
+		9F4A0F9C2452D69C00E69C14 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4A0F9B2452D69C00E69C14 /* ARViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		9F4A0F872452B89C00E69C14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F4A0F932452BE1800E69C14 /* TopMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMenu.swift; sourceTree = "<group>"; };
 		9F4A0F952452BE6900E69C14 /* TestARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestARView.swift; sourceTree = "<group>"; };
+		9F4A0F982452D5AC00E69C14 /* ARDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARDataModel.swift; sourceTree = "<group>"; };
+		9F4A0F9B2452D69C00E69C14 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,9 @@
 		9F4A0F622452B89500E69C14 /* ARLaboratory */ = {
 			isa = PBXGroup;
 			children = (
+				9F4A0F9D2452F0BE00E69C14 /* View */,
+				9F4A0F9A2452D68A00E69C14 /* ViewController */,
+				9F4A0F972452D59A00E69C14 /* Model */,
 				9F4A0F632452B89500E69C14 /* AppDelegate.swift */,
 				9F4A0F652452B89500E69C14 /* ContentView.swift */,
 				9F4A0F672452B89500E69C14 /* Experience.rcproject */,
@@ -110,8 +117,6 @@
 				9F4A0F6E2452B89B00E69C14 /* LaunchScreen.storyboard */,
 				9F4A0F712452B89B00E69C14 /* Info.plist */,
 				9F4A0F6B2452B89B00E69C14 /* Preview Content */,
-				9F4A0F932452BE1800E69C14 /* TopMenu.swift */,
-				9F4A0F952452BE6900E69C14 /* TestARView.swift */,
 			);
 			path = ARLaboratory;
 			sourceTree = "<group>";
@@ -140,6 +145,39 @@
 				9F4A0F872452B89C00E69C14 /* Info.plist */,
 			);
 			path = ARLaboratoryUITests;
+			sourceTree = "<group>";
+		};
+		9F4A0F972452D59A00E69C14 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F4A0F982452D5AC00E69C14 /* ARDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9F4A0F9A2452D68A00E69C14 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9F4A0F9B2452D69C00E69C14 /* ARViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9F4A0F9D2452F0BE00E69C14 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F4A0F9E2452F0CA00E69C14 /* ARView */,
+				9F4A0F932452BE1800E69C14 /* TopMenu.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9F4A0F9E2452F0CA00E69C14 /* ARView */ = {
+			isa = PBXGroup;
+			children = (
+				9F4A0F952452BE6900E69C14 /* TestARView.swift */,
+			);
+			path = ARView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,11 +311,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F4A0F9C2452D69C00E69C14 /* ARViewController.swift in Sources */,
 				9F4A0F962452BE6900E69C14 /* TestARView.swift in Sources */,
 				9F4A0F942452BE1800E69C14 /* TopMenu.swift in Sources */,
 				9F4A0F662452B89500E69C14 /* ContentView.swift in Sources */,
 				9F4A0F642452B89500E69C14 /* AppDelegate.swift in Sources */,
 				9F4A0F682452B89500E69C14 /* Experience.rcproject in Sources */,
+				9F4A0F992452D5AC00E69C14 /* ARDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

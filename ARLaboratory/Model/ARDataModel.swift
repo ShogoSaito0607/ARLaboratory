@@ -1,32 +1,26 @@
 //
-//  TestARView.swift
+//  DataModel.swift
 //  ARLaboratory
 //
 //  Created by ShogoSaito on 2020/04/24.
 //  Copyright © 2020 bitkey. All rights reserved.
 //
 
-import SwiftUI
 import RealityKit
+import SwiftUI
 
-struct TestARView: View {
-    var body: some View {
-        return TestARViewContainer().edgesIgnoringSafeArea(.all)
+final class ARDataModel: ObservableObject {
+    static var shared = ARDataModel()
+    @Published var arView: ARView!
+
+    init() {
+        arView = ARView(frame: .zero)
+//        arView.debugOptions = [.showStatistics, .showFeaturePoints]
     }
-}
 
-//ただ球が出てくるだけ
-struct TestARViewContainer: UIViewRepresentable {
-
-    func makeUIView(context: Context) -> ARView {
-
-        let arView = ARView(frame: .zero)
-
-        arView.debugOptions = [.showStatistics, .showFeaturePoints]
-
+    func addSphere() {
         let anchor = AnchorEntity(plane: .horizontal, minimumBounds: [0.15, 0.15])
         arView.scene.anchors.append(anchor)
-
         let sphereMesh = MeshResource.generateSphere(radius: 0.3)
         let sphereMaterial = SimpleMaterial(color: UIColor.white, roughness: 0.0, isMetallic: true)
         let sphereModel = ModelEntity(mesh: sphereMesh, materials: [sphereMaterial])
@@ -37,19 +31,9 @@ struct TestARViewContainer: UIViewRepresentable {
 
         // Add the box anchor to the scene
         arView.scene.anchors.append(boxAnchor)
-
-        return arView
-
     }
 
-    func updateUIView(_ uiView: ARView, context: Context) {}
-
-}
-
-#if DEBUG
-struct TestARView_Previews: PreviewProvider {
-    static var previews: some View {
-        TestARView()
+    func removeAllAnchor() {
+        arView.scene.anchors.removeAll()
     }
 }
-#endif
