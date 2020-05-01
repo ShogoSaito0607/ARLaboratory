@@ -16,9 +16,15 @@
 		9F4A0F7B2452B89C00E69C14 /* ARLaboratoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4A0F7A2452B89C00E69C14 /* ARLaboratoryTests.swift */; };
 		9F4A0F862452B89C00E69C14 /* ARLaboratoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4A0F852452B89C00E69C14 /* ARLaboratoryUITests.swift */; };
 		9F4A0F942452BE1800E69C14 /* TopMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4A0F932452BE1800E69C14 /* TopMenu.swift */; };
-		9F4A0F962452BE6900E69C14 /* TestARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4A0F952452BE6900E69C14 /* TestARView.swift */; };
+		9F4A0F962452BE6900E69C14 /* SphereTestARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4A0F952452BE6900E69C14 /* SphereTestARView.swift */; };
 		9F4A0F992452D5AC00E69C14 /* ARDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4A0F982452D5AC00E69C14 /* ARDataModel.swift */; };
 		9F4A0F9C2452D69C00E69C14 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4A0F9B2452D69C00E69C14 /* ARViewController.swift */; };
+		9F4A0FA02452F10600E69C14 /* FaceARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4A0F9F2452F10600E69C14 /* FaceARView.swift */; };
+		9F4A0FA22452F15500E69C14 /* FaceARViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4A0FA12452F15500E69C14 /* FaceARViewModel.swift */; };
+		9F4A0FA42452F1FE00E69C14 /* FaceARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4A0FA32452F1FE00E69C14 /* FaceARViewController.swift */; };
+		9F4A0FA72452F67D00E69C14 /* VirtualFaceContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4A0FA62452F67D00E69C14 /* VirtualFaceContent.swift */; };
+		9F783652245C054A0060EBFF /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F783651245C054A0060EBFF /* art.scnassets */; };
+		9F783654245C25A80060EBFF /* FaseMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F783653245C25A80060EBFF /* FaseMask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,9 +60,15 @@
 		9F4A0F852452B89C00E69C14 /* ARLaboratoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARLaboratoryUITests.swift; sourceTree = "<group>"; };
 		9F4A0F872452B89C00E69C14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F4A0F932452BE1800E69C14 /* TopMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMenu.swift; sourceTree = "<group>"; };
-		9F4A0F952452BE6900E69C14 /* TestARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestARView.swift; sourceTree = "<group>"; };
+		9F4A0F952452BE6900E69C14 /* SphereTestARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereTestARView.swift; sourceTree = "<group>"; };
 		9F4A0F982452D5AC00E69C14 /* ARDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARDataModel.swift; sourceTree = "<group>"; };
 		9F4A0F9B2452D69C00E69C14 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		9F4A0F9F2452F10600E69C14 /* FaceARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceARView.swift; sourceTree = "<group>"; };
+		9F4A0FA12452F15500E69C14 /* FaceARViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceARViewModel.swift; sourceTree = "<group>"; };
+		9F4A0FA32452F1FE00E69C14 /* FaceARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceARViewController.swift; sourceTree = "<group>"; };
+		9F4A0FA62452F67D00E69C14 /* VirtualFaceContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualFaceContent.swift; sourceTree = "<group>"; };
+		9F783651245C054A0060EBFF /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		9F783653245C25A80060EBFF /* FaseMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaseMask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +119,7 @@
 		9F4A0F622452B89500E69C14 /* ARLaboratory */ = {
 			isa = PBXGroup;
 			children = (
+				9F4A0FA52452F66400E69C14 /* Protocol */,
 				9F4A0F9D2452F0BE00E69C14 /* View */,
 				9F4A0F9A2452D68A00E69C14 /* ViewController */,
 				9F4A0F972452D59A00E69C14 /* Model */,
@@ -117,6 +130,7 @@
 				9F4A0F6E2452B89B00E69C14 /* LaunchScreen.storyboard */,
 				9F4A0F712452B89B00E69C14 /* Info.plist */,
 				9F4A0F6B2452B89B00E69C14 /* Preview Content */,
+				9F783651245C054A0060EBFF /* art.scnassets */,
 			);
 			path = ARLaboratory;
 			sourceTree = "<group>";
@@ -151,6 +165,8 @@
 			isa = PBXGroup;
 			children = (
 				9F4A0F982452D5AC00E69C14 /* ARDataModel.swift */,
+				9F4A0FA12452F15500E69C14 /* FaceARViewModel.swift */,
+				9F783653245C25A80060EBFF /* FaseMask.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -159,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				9F4A0F9B2452D69C00E69C14 /* ARViewController.swift */,
+				9F4A0FA32452F1FE00E69C14 /* FaceARViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -175,9 +192,18 @@
 		9F4A0F9E2452F0CA00E69C14 /* ARView */ = {
 			isa = PBXGroup;
 			children = (
-				9F4A0F952452BE6900E69C14 /* TestARView.swift */,
+				9F4A0F952452BE6900E69C14 /* SphereTestARView.swift */,
+				9F4A0F9F2452F10600E69C14 /* FaceARView.swift */,
 			);
 			path = ARView;
+			sourceTree = "<group>";
+		};
+		9F4A0FA52452F66400E69C14 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				9F4A0FA62452F67D00E69C14 /* VirtualFaceContent.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F4A0F702452B89B00E69C14 /* LaunchScreen.storyboard in Resources */,
+				9F783652245C054A0060EBFF /* art.scnassets in Resources */,
 				9F4A0F6D2452B89B00E69C14 /* Preview Assets.xcassets in Resources */,
 				9F4A0F6A2452B89B00E69C14 /* Assets.xcassets in Resources */,
 			);
@@ -311,10 +338,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F4A0FA02452F10600E69C14 /* FaceARView.swift in Sources */,
+				9F4A0FA22452F15500E69C14 /* FaceARViewModel.swift in Sources */,
+				9F4A0FA42452F1FE00E69C14 /* FaceARViewController.swift in Sources */,
 				9F4A0F9C2452D69C00E69C14 /* ARViewController.swift in Sources */,
-				9F4A0F962452BE6900E69C14 /* TestARView.swift in Sources */,
+				9F4A0FA72452F67D00E69C14 /* VirtualFaceContent.swift in Sources */,
+				9F4A0F962452BE6900E69C14 /* SphereTestARView.swift in Sources */,
 				9F4A0F942452BE1800E69C14 /* TopMenu.swift in Sources */,
 				9F4A0F662452B89500E69C14 /* ContentView.swift in Sources */,
+				9F783654245C25A80060EBFF /* FaseMask.swift in Sources */,
 				9F4A0F642452B89500E69C14 /* AppDelegate.swift in Sources */,
 				9F4A0F682452B89500E69C14 /* Experience.rcproject in Sources */,
 				9F4A0F992452D5AC00E69C14 /* ARDataModel.swift in Sources */,
