@@ -516,7 +516,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ARLaboratory/Preview Content\"";
-				DEVELOPMENT_TEAM = B9L7L75QK7;
+				DEVELOPMENT_TEAM = N4NP295K9J;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ARLaboratory/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
@@ -524,7 +524,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.github.bitkey-platform.ARLaboratory";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.ShogoSaito0607.ARLaboratory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -537,7 +537,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ARLaboratory/Preview Content\"";
-				DEVELOPMENT_TEAM = B9L7L75QK7;
+				DEVELOPMENT_TEAM = N4NP295K9J;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ARLaboratory/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
@@ -545,7 +545,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.github.bitkey-platform.ARLaboratory";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.ShogoSaito0607.ARLaboratory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
